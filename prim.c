@@ -1,23 +1,23 @@
 #include <stdio.h>
-int main()
+void main()
 {
-    int less, high, i, flag;
+    int les, high, i, flag;
     printf("Enter two numbers(intervals): ");
-    scanf("%d %d", &less, &high);
+    scanf("%d %d", &les, &high);
 
-    printf("Prime numbers between %d and %d are: ", less, high);
+    printf("Prime numbers between %d and %d are: ", les, high);
 
-    while (less < high)
+    while (les < high)
     {
         flag = 0;
 
         for(i = 2; i <= low/2; ++i)
         {
-            if(low % i == 0)
+            if(les % i == 0)
             {
                 flag = 1;
                 break;
             }
         }
-        return 0;
+        getch();
     }
