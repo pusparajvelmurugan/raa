@@ -11,8 +11,8 @@ result+=c*c*c;
 b/=10;
 }
 if(result==a)
-printf("it is a amstrong number");
+printf("yes");
 else
-printf("it is a not amstrong number");
+printf("no");
 return 0;
 }
