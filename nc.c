@@ -2,8 +2,8 @@
 int main()
 {
     int sub;
-    double a=4.50;
-    double b=5.50;
+    int a=4.50;
+    int b=5.50;
     printf("enter the hours and min is");
     scanf("%d",&a);
     printf("enter the hour and min is");
